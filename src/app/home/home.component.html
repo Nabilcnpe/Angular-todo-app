@@ -21,14 +21,13 @@
         [(ngModel)]="goalText"
         name="goalText">
       <div [hidden]="goal.valid || !goal.touched"
-           class="alert alert-danger">
-          Goal is required
+           class="required-message">
+          Goal is required...
       </div>
       <input type="submit"
         class="btn"
         value="Add item"
-        (click)="addItem();
-        goalForm.reset()"
+        (click)="addItem(); goalForm.reset()"
         [disabled]="!goalForm.valid">
     </form>
 

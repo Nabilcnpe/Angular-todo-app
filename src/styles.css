@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css.family=Raleway:300,700');
 
 body {
-  background: #2E9CE6;
+  background: #ffc952;
   padding: 3em;
   font-family: 'Raleway', 'Arial';
   color: #fff;
@@ -22,4 +22,9 @@ ul li a {
 a {
   color: #fff;
   text-decoration: none;
+}
+
+.txt.ng-invalid.ng-pristine.ng-touched {
+  border: 2px solid #ff7473;
+  margin-bottom: 0.5em;
 }

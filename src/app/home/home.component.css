@@ -6,10 +6,10 @@
   padding: .4em 1.3em;
 }
 .color-dark {
-  background: #2885C4;
+  background: #34314c;
 }
 .color-light {
-  background: #57B3F1;
+  background: #47b8e0;
 }
 input.txt {
   border: 0;
@@ -23,14 +23,23 @@ input.btn {
   border-radius: 5px;
   display: block;
   padding: 1em 3em;
-  background: #A5F883;
+  background: #ffc952;
   color: #003A61;
   margin-bottom: 1em;
   cursor: pointer;
 }
 .life-container {
-  background: #3FA0E1;
+  background: #ffc952;
   padding: .5em;
   font-weight: bold;
   cursor: pointer;
+  border-radius: 4px;
 }
+.required-message {
+  margin-bottom: 2em;
+  background-color: #ff7473;
+  width: 80%;
+  padding: 1em;
+  border-radius: 5px;
+}
+
