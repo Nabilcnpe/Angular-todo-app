@@ -33,10 +33,11 @@
 
   </div>
   <div class="col">
-    <p class="life-container"
-      *ngFor="let goal of goals; let i = index"
-      (click)="removeItem(i)">
-      {{ goal }}
-    </p>
+    <div class="goals" *ngFor="let goal of goals; let i = index">
+      <p class="life-container">
+        {{ goal }}
+      </p>
+      <span class="fas fa-trash-alt trash" (click)="removeItem(i)"></span>
+    </div>
   </div>
 </div>

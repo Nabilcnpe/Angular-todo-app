@@ -32,7 +32,6 @@ input.btn {
   background: #34314c;
   padding: .5em;
   font-weight: bold;
-  cursor: pointer;
   border-radius: 4px;
 }
 .required-message {
@@ -46,4 +45,14 @@ input.btn:disabled {
   background: #c49a5e;
   cursor: not-allowed;
 }
-
+.goals {
+  display: grid;
+  grid-template-columns: 90% auto;
+}
+.trash {
+  padding: 1.5em .3em;
+  cursor: pointer;
+}
+.trash:hover {
+  color: #ff7473;
+}
