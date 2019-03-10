@@ -42,4 +42,8 @@ input.btn {
   padding: 1em;
   border-radius: 5px;
 }
+input.btn:disabled {
+  background: #c49a5e;
+  cursor: not-allowed;
+}
 

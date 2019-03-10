@@ -23,8 +23,11 @@ a {
   color: #fff;
   text-decoration: none;
 }
-
 .txt.ng-invalid.ng-pristine.ng-touched {
+  border: 2px solid #ff7473;
+  margin-bottom: 0.5em;
+}
+.txt.ng-invalid.ng-dirty.ng-touched {
   border: 2px solid #ff7473;
   margin-bottom: 0.5em;
 }
