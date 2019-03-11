@@ -48,6 +48,7 @@ input.btn:disabled {
 .goals {
   display: grid;
   grid-template-columns: 90% auto;
+  height: 50px;
 }
 .trash {
   padding: 1.5em .3em;
